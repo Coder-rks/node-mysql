@@ -8,5 +8,5 @@ app.use(express.urlencoded({extended:true}));
 app.use('/api', routes);
 
 app.listen(3020, ()=>{
-    console.log('Running');
+    console.log('Running the application');
 });

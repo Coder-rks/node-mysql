@@ -1,3 +1,3 @@
-module.exports.download = (req, res) => {
+module.exports.download = (req: any, res: any) => {
     res.status(200).json({message: 'Downloaded file successfully'});
 }
