@@ -2,9 +2,6 @@
   "name": "docker-node",
   "version": "1.0.0",
   "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,7 +13,11 @@
     "sequelize": "^6.37.3"
   },
   "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
     "@types/node": "^20.14.11",
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
